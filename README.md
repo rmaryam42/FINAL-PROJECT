@@ -100,9 +100,10 @@ The R-squared score indicates that the model explains only about 27% of the vari
 
 ## Recommendations
 Based on the insights from the models, businesses can:
-    - Implement fraud detection systems to flag suspicious transactions in real-time.
-    - Improve fraud prevention strategies by understanding patterns in fraudulent transactions.
-    - Explore additional features that may have predictive power or engineer new features from the additional dataframe that provide more information about the target variable to get higher R-squares score.
+- Implement fraud detection systems to flag suspicious transactions in real-time.
+- Improve fraud prevention strategies by understanding patterns in fraudulent transactions.
+- Explore additional features that may have predictive power or engineer new features from the additional dataframe that provide more information about the target variable to get higher R-squares score.
     
 ## Presentation
 https://www.canva.com/design/DAGF2LC9nwo/ZTkoOgxFjVs7-EZSt1YFeQ/edit?utm_content=DAGF2LC9nwo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.canva.com/design/DAGGngkI7Yo/VbspjdZoRSCylSSok6oQ9A/edit?utm_content=DAGGngkI7Yo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
