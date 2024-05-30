@@ -22,7 +22,7 @@ Implementing an algorithm to change the unique client number, among other steps.
 ## Data Issues and Analysis
 Since all parts of the credit portfolio information were manually collected, involving numerous employees, both the original and the processed data for the project contain numerous discrepancies, which is acceptable in such processes. Some of the information obtained is unsuitable for analysis despite its importance.
 
-## Cleaned Database Structure
+## First Database
 For initiating the actual research, the cleaned databases containing the following information were used:
 
 1. **CreateDate**: Represents the date of order registration by the client in the company's internal records (data type - datetime64[ns])
@@ -58,6 +58,13 @@ For initiating the actual research, the cleaned databases containing the followi
 31. **The system is working**: Represents the current status of the equipment purchased on credit
 32. **Date of the last contact by staff**: Represents the date of the last contact with company staff as reported by the client
 33. **SalesMan_ID**: Represents the unique identifier of the responsible employee who prepared the documents and collected the information necessary for making the loan decision
+
+## Second Database
+Additional information for analyzing the effectiveness of working with the overdue portfolio was contained in and included the following columns:
+1. **Officer ID** – reflects the unique number of the debt collection department employee;
+2. **Mar Collections** – reflects the amount of payments received during the corresponding month from clients in the respective employee's portfolio;
+3. **Apr_Collections** – reflects the amount of payments received during the corresponding month from clients in the respective employee's portfolio;
+4. **May_Collections** – reflects the amount of payments received during the corresponding month from clients in the respective employee's portfolio;
 
 ## Fraud Analysis
 To determine the likelihood of fraudulent actions by company personnel, a comparative analysis of the current state of the credit portfolio and the credit portfolio at the time of loan issuance was conducted across:
